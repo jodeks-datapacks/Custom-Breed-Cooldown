@@ -1,3 +1,8 @@
+execute as @a unless score $breed_cooldown breed_cooldown = $breed_cooldown breed_cooldown run scoreboard players set $breed_cooldown breed_cooldown 150
+
+execute as @a run scoreboard players operation $breed_cooldown breed_cooldown_ticks = $breed_cooldown breed_cooldown 
+execute as @a run scoreboard players operation $breed_cooldown breed_cooldown_ticks *= #20 breed_cooldown_ticks
+
 # sheep
 execute as @e[type=sheep,tag=parent] run data modify entity @s Age set value 0
 tag @e[type=sheep,tag=!recently_bred,nbt={InLove:600}] add parent
@@ -93,3 +98,11 @@ tag @e[type=camel,tag=!recently_bred,nbt={InLove:600}] add parent
 # sniffer
 execute as @e[type=sniffer,tag=parent] run data modify entity @s Age set value 0
 tag @e[type=sniffer,tag=!recently_bred,nbt={InLove:600}] add parent
+
+
+
+
+
+scoreboard players enable @a help.nobreedcooldown
+
+execute as @a if score @s help.nobreedcooldown matches 1 run function nobreedcooldown:trigger_help
