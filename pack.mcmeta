@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Removes the cooldown between breeding mobs - [1.21] - v.2.1.0"
+    "description": "Set custom breed cooldown times for mobs - [1.21] - v.2.2.0"
   }
 }
