@@ -3,11 +3,11 @@
     "icon": {
       "id": "minecraft:wheat"
     },
-    "title": "No Breed Cooldown                                                                                    ",
+    "title": "Custom Breed Cooldown                                                                                    ",
     "description": [
       "",
       {
-          "text": "Removes the cooldown between breeding mobs\n",
+          "text": "Set custom breed cooldown times for mobs\n",
           "color": "white"
       },
       {
@@ -19,7 +19,7 @@
           "color": "yellow"
       },
       {
-          "text": " help.nobreedcooldown\n",
+          "text": " help.custombreedcooldown\n",
           "color": "yellow"
       },
       {
@@ -35,7 +35,7 @@
           "color": "dark_green"
       },
       {
-          "text": "v.2.1.0",
+          "text": "v.2.2.0",
           "color": "green"
       },
       {

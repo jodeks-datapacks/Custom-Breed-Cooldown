@@ -1,7 +1,10 @@
-tellraw @a ["",{"text":"No Breed Cooldown ","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":"loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":"[1.21]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":"v.2.1.0","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}}]
-scoreboard objectives add breed_cooldown dummy
+tellraw @a ["",{"text":"No Breed Cooldown ","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":"loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":"[1.21]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}},{"text":"v.2.2.0","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/no-breed-cooldown"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/no-breed-cooldown"}}]
 
-scoreboard objectives add breed_cooldown_ticks dummy
-scoreboard players set #20 breed_cooldown_ticks 20
 
-scoreboard objectives add help.nobreedcooldown trigger
+scoreboard objectives add config.custombreedcooldown dummy
+
+# WIP so it's possible to set custom cooldown for every mob individually
+# scoreboard objectives add individual_cooldown.custombreedcooldown dummy
+
+
+scoreboard objectives add help.custombreedcooldown trigger
