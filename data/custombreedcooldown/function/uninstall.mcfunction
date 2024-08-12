@@ -1,4 +1,4 @@
-tag @a remove parent
+tag @e remove parent
 
 scoreboard objectives remove config.custombreedcooldown 
 

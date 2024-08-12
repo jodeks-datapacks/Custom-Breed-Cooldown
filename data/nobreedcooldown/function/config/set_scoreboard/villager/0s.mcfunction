@@ -1,3 +1,0 @@
-scoreboard players set &villager_cooldown config.custombreedcooldown 0
-
-function nobreedcooldown:trigger_help
