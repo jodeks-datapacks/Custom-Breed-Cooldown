@@ -1,0 +1,1 @@
+function custom_breed_cooldown:macro/mobs/trader_llama with storage custom_breed_cooldown:root data

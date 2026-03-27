@@ -1,0 +1,1 @@
+function custom_breed_cooldown:macro/mobs/axolotl with storage custom_breed_cooldown:root data

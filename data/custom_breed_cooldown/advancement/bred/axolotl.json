@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:axolotl"
+        },
+        "partner": {
+          "type": "minecraft:axolotl"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_breed_cooldown:macro/set/axolotl"
+  }
+}

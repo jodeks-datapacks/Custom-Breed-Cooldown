@@ -1,0 +1,1 @@
+function custom_breed_cooldown:image/process/build_pixel with storage custom_breed_cooldown:image data.current

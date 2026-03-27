@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:mooshroom"
+        },
+        "partner": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_breed_cooldown:macro/set/mooshroom"
+  }
+}

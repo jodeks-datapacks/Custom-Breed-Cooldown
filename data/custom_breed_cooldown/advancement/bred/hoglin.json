@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:hoglin"
+        },
+        "partner": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_breed_cooldown:macro/set/hoglin"
+  }
+}

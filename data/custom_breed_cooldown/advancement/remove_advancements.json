@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&custom_breed_cooldown_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 0
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "jodek:custom_breed_cooldown": true,
+                  "jodek:root": true,
+                  "jodek:mobs": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_breed_cooldown:remove_advancements"
+  }
+}

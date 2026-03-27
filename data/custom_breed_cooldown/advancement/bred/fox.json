@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:fox"
+        },
+        "partner": {
+          "type": "minecraft:fox"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_breed_cooldown:macro/set/fox"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:sheep"
+        },
+        "partner": {
+          "type": "minecraft:sheep"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_breed_cooldown:macro/set/sheep"
+  }
+}
