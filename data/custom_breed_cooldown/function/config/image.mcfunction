@@ -16,7 +16,7 @@ function custom_breed_cooldown:image/set_image_data {\
     {text: "Custom Breed Cooldown"},\
     {translate: "custom_breed_cooldown.description", fallback: "Change the breed cooldown for mobs and villagers!"},\
     "",\
-    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.6.2", color: "#54fc54"}],\
+    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.6.3", color: "#54fc54"}],\
     "",\
     [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
     {text: "modrinth.com/datapack/custom-breed-cooldown", color: "#a800a8"},\
